@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #8A2BE2 url(images/bg-desktop.svg);
+}
+.header{
+	width: 90%;
+	height: 5vw;
+	margin: 0 auto;
+	padding: 2vw 0 0 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+}
+.illustrarion{
+	padding: 2.5vw 0 0 0;
+	display: inline-block;
+	width: 53vw;
+}
+.texto{
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	width: 37vw;
+	height: 30vw;
+}
+.titulo-principal{
+	padding: 3vw 0 0.5vw 2vw;
+	color: grey;
+}
+.paragrafo{
+	padding: 0.5vw 0 0 2vw;
+	color: #D3D3D3;
+}
+h1{
+	display: inline-block;
+}
+.registrar{
+	outline: none;
+    border: none;
+    padding: 2vw 5vw;
+    margin: 1vw 0 0 2vw;
+    border-radius: 3vw;
+    width: 17vw;
+    background: #FFF;
+    font-size: larger;
+    box-shadow: 2px 2px 1px #000;
+    cursor: pointer;
+}
+.registrar:hover{
+	background: pink;
+}
